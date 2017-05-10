@@ -14,8 +14,8 @@ import model.StudentCompare;
 public class StudentCompareTest {
 	@Test
 	public void testSortByGroup() {
-		List<Student> students = new ArrayList<>();
-		List<Student> sortedStudents = new ArrayList<>();
+		List<Student> students = new ArrayList<Student>();
+		List<Student> sortedStudents = new ArrayList<Student>();
 		
 		String studentRegNumber1 = "posh2134";
 		String name1 = "Pop Oana";
