@@ -1,7 +1,8 @@
-package main.java.repository;
+package repository;
 
-import main.java.model.Laboratory;
-import main.java.model.Student;
+import model.Laboratory;
+import model.Student;
+import model.Laboratory;
 
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
@@ -37,7 +38,7 @@ public class LaboratoryRepository {
         this.file = file;
     }
 
-    public void saveLaboratory(Laboratory laboratory) throws RepositoryException{
+    public void saveLaboratory(Laboratory laboratory) throws RepositoryException {
     	LaboratoryValidator validator = new LaboratoryValidator();
     	try {
             validator.validate(laboratory);
@@ -81,7 +82,7 @@ public class LaboratoryRepository {
     }
 
     public void addGrade(String studentRegNumber, int labNumber, float grade)
-            throws IOException, NumberFormatException, ParseException,RepositoryException {
+            throws IOException, NumberFormatException, ParseException, RepositoryException {
     	LaboratoryValidator validator = new LaboratoryValidator();
     	try {
     		validator.validateAddGrade(grade,labNumber);    		

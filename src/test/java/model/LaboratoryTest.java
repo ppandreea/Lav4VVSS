@@ -1,4 +1,4 @@
-package test.java.model;
+package model;
 
 import static org.junit.Assert.assertEquals;
 
@@ -9,7 +9,7 @@ import java.util.Date;
 import org.junit.Before;
 import org.junit.Test;
 
-import main.java.model.Laboratory;
+import model.Laboratory;
 
 public class LaboratoryTest {
 	private Laboratory lab1;

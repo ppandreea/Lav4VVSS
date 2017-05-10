@@ -1,4 +1,4 @@
-package main.java.ui;
+package ui;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -7,10 +7,10 @@ import java.text.ParseException;
 import java.util.ArrayList;
 import java.util.List;
 
-import main.java.controller.LaboratoryController;
-import main.java.model.Laboratory;
-import main.java.model.Student;
-import main.java.repository.StudentValidator;
+import controller.LaboratoryController;
+import model.Laboratory;
+import model.Student;
+import repository.StudentValidator;
 
 //import com.sun.org.apache.xpath.internal.operations.Bool;
 

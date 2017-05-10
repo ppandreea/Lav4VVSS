@@ -1,4 +1,4 @@
-package test.java.repository;
+package repository;
 
 import static org.junit.Assert.assertEquals;
 
@@ -7,9 +7,9 @@ import java.text.ParseException;
 import org.junit.Before;
 import org.junit.Test;
 
-import main.java.model.Laboratory;
-import main.java.repository.LaboratoryValidator;
-import main.java.repository.ValidationException;
+import model.Laboratory;
+import repository.LaboratoryValidator;
+import repository.ValidationException;
 
 public class LaboratoryValidatorTest {
 	private LaboratoryValidator validator;

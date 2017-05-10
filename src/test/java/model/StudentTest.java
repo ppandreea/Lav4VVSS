@@ -1,11 +1,11 @@
-package test.java.model;
+package model;
 
 import static org.junit.Assert.*;
 
 import org.junit.Test;
 
-import main.java.model.Laboratory;
-import main.java.model.Student;
+import model.Laboratory;
+import model.Student;
 
 public class StudentTest {
 

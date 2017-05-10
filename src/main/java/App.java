@@ -1,9 +1,9 @@
-package main.java;
+
 
 import java.io.IOException;
 import java.text.ParseException;
 
-import main.java.ui.LaboratoriesUI;
+import ui.LaboratoriesUI;
 
 public class App {
 
@@ -12,7 +12,10 @@ public class App {
 
         try {
             view.run();
-        } catch (IOException | ParseException e) {
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+        catch (ParseException e) {
             e.printStackTrace();
         }
     }

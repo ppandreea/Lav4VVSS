@@ -1,7 +1,7 @@
-package main.java.repository;
+package repository;
 
-import main.java.model.Laboratory;
-import main.java.model.Student;
+import model.Laboratory;
+import model.Student;
 
 import java.io.BufferedReader;
 import java.io.FileNotFoundException;

@@ -1,4 +1,4 @@
-package test.java.controller;
+package controller;
 
 import static org.junit.Assert.assertEquals;
 
@@ -11,12 +11,12 @@ import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
 
-import main.java.controller.LaboratoryController;
-import main.java.model.Laboratory;
-import main.java.model.Student;
-import main.java.repository.LaboratoryRepository;
-import main.java.repository.RepositoryException;
-import main.java.repository.StudentRepository;
+import controller.LaboratoryController;
+import model.Laboratory;
+import model.Student;
+import repository.LaboratoryRepository;
+import repository.RepositoryException;
+import repository.StudentRepository;
 
 public class LaboratoryControllerTest {
 

@@ -1,4 +1,4 @@
-package main.java.controller;
+package controller;
 
 import java.io.IOException;
 import java.text.ParseException;
@@ -10,13 +10,14 @@ import java.util.Map;
 import java.util.Map.Entry;
 import java.util.Set;
 
-import main.java.model.Laboratory;
-import main.java.model.Student;
-import main.java.model.StudentCompare;
-import main.java.repository.LaboratoryRepository;
-import main.java.repository.RepositoryException;
-import main.java.repository.StudentRepository;
-import main.java.repository.ValidationException;
+import model.Laboratory;
+import model.Student;
+import model.StudentCompare;
+import repository.LaboratoryRepository;
+import repository.RepositoryException;
+import repository.StudentRepository;
+import repository.ValidationException;
+import repository.LaboratoryRepository;
 
 public class LaboratoryController {
 

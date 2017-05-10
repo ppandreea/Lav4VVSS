@@ -1,4 +1,4 @@
-package test.java.repository;
+package repository;
 
 import static org.junit.Assert.*;
 
@@ -12,11 +12,11 @@ import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
 
-import main.java.model.Student;
-import main.java.repository.LaboratoryValidator;
-import main.java.repository.RepositoryException;
-import main.java.repository.StudentRepository;
-import main.java.repository.ValidationException;
+import model.Student;
+import repository.LaboratoryValidator;
+import repository.RepositoryException;
+import repository.StudentRepository;
+import repository.ValidationException;
 
 public class StudentRepositoryTest {
 	

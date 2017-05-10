@@ -1,4 +1,4 @@
-package test.java.model;
+package model;
 
 import static org.junit.Assert.assertEquals;
 
@@ -8,8 +8,8 @@ import java.util.List;
 
 import org.junit.Test;
 
-import main.java.model.Student;
-import main.java.model.StudentCompare;
+import model.Student;
+import model.StudentCompare;
 
 public class StudentCompareTest {
 	@Test
