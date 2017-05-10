@@ -59,9 +59,18 @@ public class LaboratoryController {
     		else {
     			throw new Exception("There is no student with this registration number!");
     		}    			
-    	} catch(IOException|RepositoryException|NumberFormatException|ParseException ex){
+    	} catch(IOException ex){
             System.err.println(ex.getMessage());
-        }	
+        }
+        catch(RepositoryException ex){
+            System.err.println(ex.getMessage());
+        }
+        catch(NumberFormatException ex){
+            System.err.println(ex.getMessage());
+        }
+        catch(ParseException ex){
+            System.err.println(ex.getMessage());
+        }
     }
 
     public List<Student> passedStudents() throws NumberFormatException,
@@ -69,7 +78,7 @@ public class LaboratoryController {
         Map<String, List<Laboratory>> laboratoryMap = this.labRepo.getLaboratoryMap();
         List<Student> studentsList = studentRepo.getStudentsList();
 
-        List<Student> passedStudents = new ArrayList<>();
+        List<Student> passedStudents = new ArrayList<Student>();
         Entry<String, List<Laboratory>> entry;
         
         Set<Entry<String, List<Laboratory>>> entrySet = laboratoryMap.entrySet();

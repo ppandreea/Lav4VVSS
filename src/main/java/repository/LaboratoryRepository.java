@@ -87,7 +87,7 @@ public class LaboratoryRepository {
     	try {
     		validator.validateAddGrade(grade,labNumber);    		
     		if (findOne(labNumber,studentRegNumber)) { 
-    	        List<String> laboratories = new ArrayList<>(Files.readAllLines(Paths.get(file), StandardCharsets.UTF_8));    	        
+    	        List<String> laboratories = new ArrayList<String>(Files.readAllLines(Paths.get(file), StandardCharsets.UTF_8));
     	        for (int i = 0; i < laboratories.size(); i++) {
     	            String[] temp = laboratories.get(i).split(" ");
     	            String fileLabNumber = temp[0];
