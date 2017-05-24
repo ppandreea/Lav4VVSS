@@ -137,6 +137,6 @@ public class StudentTest {
 		String name2 = "Andreea Popa";
 		int group2 = 731;
 		Student student2 = new Student(studentRegNumber2,name2,group2);
-		assertFalse(student1.equals(student2));
+		assertTrue(student1.equals(student2));
 	}
 }
